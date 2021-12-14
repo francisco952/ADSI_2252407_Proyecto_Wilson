@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 40vh;
+}
+.registro_tabla{
+    border-radius: 5px;
+    border: 1px solid black; 
+    width: 440px;
+}
+.titulo_principal{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.barra{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.id_empaque, .nombre_empaque{
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+    height: 45px;
+}
+.id_empaque{
+    margin-left: 25px;
+}
+.boton_accion{
+    padding: 10px;
+    text-align: center;
+}
+.contenedor_boton{
+    padding: 10px;
+}
+.boton{
+    margin: 0 auto;
+    background: greenyellow;
+    font-size: 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}

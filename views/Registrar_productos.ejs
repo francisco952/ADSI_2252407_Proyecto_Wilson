@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/menu-vertical.css"><!-- Estilos de Menu -->
+    <link rel="stylesheet" href="css/Registrar_Productos.css"><!-- Estilos del formulario -->
+    <link rel="stylesheet" href="icons/all.css">
+    <script src="js/menu-vertical.js"></script>
+    <title>Registar Producto</title>
+</head>
+<body>
+    <header>
+        <div class="boton-hamburguer">
+            <label class="icono-menu" onclick="MostrarMenu();"><i class="fas fa-bars"></i></label>
+        </div>
+        <div class="titulo-empresa">
+           <div class="senaEmpresa"></div> <Span class="sena">SENA</Span><span class="empresa">Empresa</span>
+        </div>
+        <div class="ingreso-persona">
+            <label class="icon-user"></label>
+            <label>Wilson</label>
+        </div>
+    </header>
+    <nav id="menu-principal">
+        <ul class="menu">
+            <li><a href="/Home"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="/Main_productos"><i class="fas fa-tags"></i>Productos</a></li>
+            <li><a href="/Main_produccion"><i class="fas far fa-clipboard"></i>Produccion</a></li>
+            <li><a href="/Unidadesproductivas"><i class="fas fa-warehouse"></i>Unidades Productivas</a></li>
+            <li><a href="/Personas"><i class="fas fa-users"></i>Personas</a></li>
+            <li><a href="/Unidadmedida"><i class="fas fa-ruler"></i> Unidad Medida</a></li>
+            <li><a href="/Tipoempaque"><i class="fas fa-boxes"></i>Tipo Empaque</a></li>
+            <li><a href="/Detallecompra"><i class="fas far fa-edit"></i>Detalles de Compra</a></li>
+            <li><a href="/Compra"><i class="fas fa-shopping-cart"></i>Compra</a></li>
+            <li><a href="/Puntoventa"><i class="fas fa-store"></i>Punto Venta</a></li>
+        </ul>
+        <hr class="space-option">
+    </nav>
+    <main>
+        <div class="registro">
+            <div class="registro_tabla">
+                <form  >
+                    <div class="titulo_principal">
+                        <h1>Registrar Productos</h1>
+                    </div><br>
+                    <div class="id_producto">
+                        <div>
+                            <label class="barra">Codigo Producto</label>
+                        </div>
+                        <div>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="nombre_producto">
+                        <div>
+                            <label class="barra">Nombre</label>
+                        </div>
+                        <div>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="descripcion_producto">
+                        <div>
+                            <label class="barra">Descripcion</label>
+                        </div>
+                        <div>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="estado_producto">
+                        <div>
+                            <label class="barra">Estado</label>
+                        </div>
+                        <div>
+                            <select class="estado">
+                                <option class="barra" selected>Seleccione el Estado</option>
+                                <option class="barra">Excelente</option>
+                                <option class="barra">Bueno</option>
+                                <option class="barra">Malo</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="stock_producto">
+                        <div>
+                            <label class="barra">Stock</label>
+                        </div>
+                        <div>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="valor_producto">
+                        <div>
+                            <label class="barra">Valor</label>
+                        </div>
+                        <div>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="reserva_producto">
+                        <div>
+                            <label class="barra">Reserva</label>
+                        </div>
+                        <div>
+                            <input type="text">
+                        </div>
+                    </div>
+                    <div class="unidadme_producto">
+                        <div>
+                            <label class="barra">Unidad de Medida</label>
+                        </div>
+                        <div>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="unidadpod_producto">
+                        <div>
+                            <label class="barra">Codigo Unidad Productiva</label>
+                        </div>
+                        <div>
+                            <input class="productiva" type="number">
+                        </div>
+                    </div>
+                    <div class="tipoempa_producto">
+                        <div>
+                            <label class="barra">Tipo de Empaque</label>
+                        </div>
+                        <div>
+                            <input type="number">
+                        </div>
+                    </div>
+                    <div class="imagen_producto">
+                        <div>
+                            <label class="barra">Imagen</label>
+                        </div>
+                        <div>
+                            <input type="file">
+                        </div>
+                    </div>
+                    <div class="contenedor_boton">
+                        <div class="boton_accion">
+                            <button class="boton">Registrar</button>
+                        </div>
+                    </div>
+            </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 55vh;
+}
+.registro_tabla{
+    border-radius: 5px;
+    border: 1px solid black; 
+    width: 830px;
+}
+.titulo_principal{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.barra{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.identificacion_persona, .login_persona{
+    margin-left: 10px;
+}
+.identificacion_persona, .nombre_persona, .direccion_persona, .correo_persona{
+    display: inline-block;
+}
+.login_persona, .pass_persona, .telefono_persona, .especialidad_persona{
+    display: inline-block;
+}
+.login_persona, .pass_persona, .telefono_persona, .especialidad_persona, .identificacion_persona, .nombre_persona, .direccion_persona, .correo_persona{
+    padding: 10px;
+    width: 180px;
+    height: 45px;
+}
+.medida_rol{
+    width: 167px;
+}
+.boton_accion{
+    padding: 10px;
+    text-align: center;
+}
+.contenedor_boton{
+    padding: 10px;
+}
+.boton{
+    margin: 0 auto;
+    background: greenyellow;
+    font-size: 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Iniciar Sesion</title>
+</head>
+<body>
+    <header>
+        <div class="container-main">
+            <div class="icon-sena"></div>
+            <div class="titulo-empresa">Aqui va el nombre de la empresa</div>
+            <div class="icon-empresa"></div>
+        </div>
+    </header>
+    <div class="box-father">
+        <div class="box-son">
+            <div class="titulo-principal">
+                <h1>Iniciar Sesión</h1>
+            </div><br>
+            <form action="/Validar_usuario" method="POST">
+                <div class="icono"><label class="icon-user"></label></div>
+                <div class="correo"><input class="barra-correo" type="text" name="login" placeholder="Login"></div><br>
+                <div class="icono"><label class="icon-lock"></label></div>
+                <div class="contraseña"><input class="barra-contraeña" type="password" name="password" placeholder="Password"></div>
+                <div class="recuperar"><a class="recupera" href="#">¿Olvidaste tu Contraseña?</a></div>
+                <div class="enviar"><button class="boton-ingresar" type="submit" >Validar</button></div>
+            </form>
+        </div>
+    </div>
+        <footer class="footer-father">
+                <div class="web"><label class="icon-facebook"></label></div>
+                <div class="web"><label class="icon-twitter"></label></div>
+                <div class="web"><label class="icon-instagram"></label></div>
+                <div class="web"><label class="icon-youtube"></label></div>
+        </footer>
+</body>
+</html>

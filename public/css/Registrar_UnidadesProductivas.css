@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.registro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 97%;
+    height: 55vh;
+}
+.registro_tabla{
+    border-radius: 5px;
+    border: 1px solid black; 
+    width: 850px;
+}
+.titulo_principal{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.barra{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.codigo_up{
+    margin-left: 15px;
+}
+.nombre_up{
+    display: inline-block;
+    padding: 10px;
+    width: 180px;
+    height: 45px;
+    margin-left: 19px;
+}
+.identificacion_up_encargado{
+    margin-left: 71px;
+}
+.codigo_up, .identificacion_up_encargado{
+    display: inline-block;
+    padding: 10px;
+    width: 230px;
+    height: 45px;
+}
+.barra_unidad, .barra_encargado{
+    width: 210px;
+}
+.mision_up{
+    margin-left: 19px;
+}
+.mision_up, .vision_up, .descripcion_up{
+    display: inline-block;
+    width: 260px;
+    height: 110px;
+    padding: 5px;
+}
+.barra_observacion{
+    width: 250px;
+}
+.logo_up, .contenedor_sede{
+    display: inline-block;
+}
+.logo_up{
+    margin-left: 23px;
+}
+.boton_accion{
+    padding: 10px;
+    text-align: center;
+}
+.contenedor_boton{
+    padding: 10px;
+}
+.boton{
+    margin: 0 auto;
+    background: greenyellow;
+    font-size: 1em;
+    border: none;
+    color: black;
+    cursor: pointer;
+    padding: 0.5em;
+    border-radius: 7px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+}

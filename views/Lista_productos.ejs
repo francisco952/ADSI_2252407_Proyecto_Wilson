@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/Estilos_lista.css">
+    <link rel="stylesheet" href="css/menu-vertical.css"><!-- Estilos de Menu -->
+    <link rel="stylesheet" href="icons/all.css">
+    <script src="js/menu-vertical.js"></script>
+    <title>Lista Productos</title>
+</head>
+<body>
+    <header>
+        <div class="boton-hamburguer">
+            <label class="icono-menu" onclick="MostrarMenu();"><i class="fas fa-bars"></i></label>
+        </div>
+        <div class="titulo-empresa">
+           <div class="senaEmpresa"></div> <Span class="sena">SENA</Span><span class="empresa">Empresa</span>
+        </div>
+        <div class="ingreso-persona">
+            <label class="icon-user"></label>
+            <label>Wilson</label>
+        </div>
+    </header>
+    <nav id="menu-principal">
+        <ul class="menu">
+            <li><a href="/Home"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="/Main_productos"><i class="fas fa-tags"></i>Productos</a></li>
+            <li><a href="/Main_produccion"><i class="fas far fa-clipboard"></i>Produccion</a></li>
+            <li><a href="/Unidadesproductivas"><i class="fas fa-warehouse"></i>Unidades Productivas</a></li>
+            <li><a href="/Personas"><i class="fas fa-users"></i>Personas</a></li>
+            <li><a href="/Unidadmedida"><i class="fas fa-ruler"></i> Unidad Medida</a></li>
+            <li><a href="/Tipoempaque"><i class="fas fa-boxes"></i>Tipo Empaque</a></li>
+            <li><a href="/Detallecompra"><i class="fas far fa-edit"></i>Detalles de Compra</a></li>
+            <li><a href="/Compra"><i class="fas fa-shopping-cart"></i>Compra</a></li>
+            <li><a href="/Puntoventa"><i class="fas fa-store"></i>Punto Venta</a></li>
+        </ul>
+        <hr class="space-option">
+    </nav>
+    <main>
+        <div class="Contenedor_principal">
+            <table>
+                <tr>
+                    <th class="head1">Codigo Producto</th>
+                    <th class="head1">Nombre</th>
+                    <th class="head1">Descripcion</th>
+                    <th class="head1">Estado</th>
+                    <th class="head1">Stock</th>
+                    <th class="head1">Valor</th>
+                    <th class="head1">Reserva</th>
+                    <th class="head1">Unidad Medida</th>
+                    <th class="head1">Codigo Unidad Productiva</th>
+                    <th class="head1">Tipo Empaque</th>
+                    <th class="head1">Imagen</th>
+                </tr>
+                <tr>
+                    <th class="fondo letra">1</th>
+                    <th class="letra">Yogurth</th>
+                    <th class="fondo letra descripcion">Yogurth <br>
+                         con frutas
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="fondo letra">120</th>
+                    <th class="letra">500</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">001</th>
+                    <th class="letra fondo">2</th>
+                    <th class="letra">010</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">2</th>
+                    <th class="letra">Chorizo</th>
+                    <th class="letra descripcion fondo">Chorizo <br>
+                         de pollo
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">500</th>
+                    <th class="letra">1000</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">2</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">3</th>
+                    <th class="letra">Avena</th>
+                    <th class="letra descripcion fondo">Avena 
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">600</th>
+                    <th class="letra">2000</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">001</th>
+                    <th class="letra fondo">2</th>
+                    <th class="letra">009</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">4</th>
+                    <th class="letra">Cilantro</th>
+                    <th class="letra descripcion fondo">Hortalizas y Verduras <br>
+                         X Manojo
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">300</th>
+                    <th class="letra">500</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">003</th>
+                    <th class="letra fondo">1</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">5</th>
+                    <th class="letra">Cebolla</th>
+                    <th class="letra descripcion fondo"> Cebolla <br>
+                         Larga
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">100</th>
+                    <th class="letra">800</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">1</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">6</th>
+                    <th class="letra">Tomate</th>
+                    <th class="letra descripcion fondo">Tomate <br>
+                         Cerry
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">200</th>
+                    <th class="letra">1500</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">1</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">7</th>
+                    <th class="letra">Almuerzos</th>
+                    <th class="letra descripcion fondo">Almuerzos <br>
+                         Especiales
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">500</th>
+                    <th class="letra">5000</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">3</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">8</th>
+                    <th class="letra">Cachama</th>
+                    <th class="letra descripcion fondo">Cachama <br>
+                         Roja
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">140</th>
+                    <th class="letra">4500</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">4</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra  fondo">9</th>
+                    <th class="letra">Trucha</th>
+                    <th class="letra descripcion fondo">Trucha <br>
+                         Arreglada
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">140</th>
+                    <th class="letra">6000</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">4</th>
+                    <th class="letra">011</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+                <tr>
+                    <th class="letra fondo">10</th>
+                    <th class="letra">Cafe</th>
+                    <th class="letra descripcion fondo">Cafe <br>
+                         Especial
+                    </th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra fondo">700</th>
+                    <th class="letra">1500</th>
+                    <th class="letra fondo">0</th>
+                    <th class="letra">002</th>
+                    <th class="letra fondo">2</th>
+                    <th class="letra">013</th>
+                    <th class="letra fondo">Null</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

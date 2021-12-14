@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="fonts/style.css">
+    <link rel="stylesheet" href="css/Lista_produccion.css">
+    <link rel="stylesheet" href="css/menu-vertical.css"><!-- Estilos de Menu -->
+    <link rel="stylesheet" href="icons/all.css">
+    <script src="js/menu-vertical.js"></script>
+    <title>Lista de Produccion</title>
+</head>
+<body>
+    <header>
+        <div class="boton-hamburguer">
+            <label class="icono-menu" onclick="MostrarMenu();"><i class="fas fa-bars"></i></label>
+        </div>
+        <div class="titulo-empresa">
+           <div class="senaEmpresa"></div> <Span class="sena">SENA</Span><span class="empresa">Empresa</span>
+        </div>
+        <div class="ingreso-persona">
+            <label class="icon-user"></label>
+            <label>Wilson</label>
+        </div>
+    </header>
+    <nav id="menu-principal">
+        <ul class="menu">
+            <li><a href="/Home"><i class="fas fa-home"></i>Inicio</a></li>
+            <li><a href="/Main_productos"><i class="fas fa-tags"></i>Productos</a></li>
+            <li><a href="/Main_produccion"><i class="fas far fa-clipboard"></i>Produccion</a></li>
+            <li><a href="/Unidadesproductivas"><i class="fas fa-warehouse"></i>Unidades Productivas</a></li>
+            <li><a href="/Personas"><i class="fas fa-users"></i>Personas</a></li>
+            <li><a href="/Unidadmedida"><i class="fas fa-ruler"></i> Unidad Medida</a></li>
+            <li><a href="/Tipoempaque"><i class="fas fa-boxes"></i>Tipo Empaque</a></li>
+            <li><a href="/Detallecompra"><i class="fas far fa-edit"></i>Detalles de Compra</a></li>
+            <li><a href="/Compra"><i class="fas fa-shopping-cart"></i>Compra</a></li>
+            <li><a href="/Puntoventa"><i class="fas fa-store"></i>Punto Venta</a></li>
+        </ul>
+        <hr class="space-option">
+    </nav>
+    <main>
+        <div class="Contenedor_principal">
+            <table>
+                <tr>
+                    <th class="head1">Id Produccion</th>
+                    <th class="head1">Estado</th>
+                    <th class="head1">Cantidad</th>
+                    <th class="head1">Fecha</th>
+                    <th class="head1">Codigo <br> Producto</th>
+                    <th class="head1">Codigo Unidad <br>
+                        Productiva
+                    </th>
+                    <th class="head1">Observacion</th>
+                </tr>
+                <tr>
+                    <th class="letra barra">201</th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra barra">50</th>
+                    <th class="letra">13/05/2021</th>
+                    <th class="letra barra">5</th>
+                    <th class="letra">1</th>
+                    <th class="letra barra">Ninguna</th>
+                </tr>
+                <tr>
+                    <th class="letra barra">202</th>
+                    <th class="letra">Bueno</th>
+                    <th class="letra barra">10</th>
+                    <th class="letra">15/03/2021</th>
+                    <th class="letra barra">8</th>
+                    <th class="letra">4</th>
+                    <th class="letra barra">Estan mas Gordas de lo Normal</th>
+                </tr>
+                <tr>
+                    <th class="letra barra">203</th>
+                    <th class="letra">Excelente</th>
+                    <th class="letra barra">25</th>
+                    <th class="letra">05/08/2021</th>
+                    <th class="letra barra">7</th>
+                    <th class="letra">3</th>
+                    <th class="letra barra">Sopa, Arroz con pollo y jugo de Tomate de Arbol</th>
+                </tr>
+                <tr>
+                    <th class="letra barra">205</th>
+                    <th class="letra">Medio</th>
+                    <th class="letra barra">30</th>
+                    <th class="letra">25/07/2021</th>
+                    <th class="letra barra">4</th>
+                    <th class="letra">1</th>
+                    <th class="letra barra">Vender rapido</th>
+                </tr>
+                <tr>
+                    <th class="letra barra">206</th>
+                    <th class="letra">Bueno</th>
+                    <th class="letra barra">30</th>
+                    <th class="letra">13/10/2021</th>
+                    <th class="letra barra">2</th>
+                    <th class="letra">2</th>
+                    <th class="letra barra">Ninguna</th>
+                </tr>
+            </table>
+        </div>
+    </main>
+</body>
+</html>

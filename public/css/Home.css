@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.contenedor_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 15vh;
+}
+.contenedor_secundario{
+    border-radius: 5px;
+    /* border: 1px solid black;  */
+    width: 650px;
+}
+.titulo_principal{
+    padding: 10px;
+    text-align: center;
+}
+.sena_empresa{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(87, 87, 86,);
+}
+.empresa_sena{
+    font-family: 'Ubuntu', sans-serif;
+}
+.sena_empresa, .empresa_sena{
+    font-size: 3em;
+}

@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Contenedor_principal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 110%;
+    height: 80vh;
+}
+.head1{
+    background-color: rgb(192, 205, 26);
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 5px;
+}
+.descripcion{
+    width: 160px;
+}
+.letra{
+    font-family: 'Ubuntu', sans-serif;
+    padding: 5px;
+}
+.fondo{
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
