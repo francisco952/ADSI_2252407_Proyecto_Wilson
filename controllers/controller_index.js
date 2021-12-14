@@ -10,7 +10,7 @@ controlador.Validar_usuario=(req,res)=>{
         res.render("home.ejs",{"usuario":login});
     }
     else{
-        res.send("Usuario no autorizado");
+        res.render("Error404.ejs");
     };
 }
 controlador.Home=(req,res)=>{

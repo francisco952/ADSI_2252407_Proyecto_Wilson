@@ -1,0 +1,38 @@
+.Contenedor_main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    height: 75vh;
+}
+.Contenedor_second{
+    border-radius: 5px;
+    /* border: 1px solid black;  */
+    width: 650px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+}
+.contenedor_texto{
+    width: 500px;
+}
+.titulo_principal{
+    padding: 10px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(87, 87, 86,);
+    font-size: 2em;
+}
+h2{
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+p{
+    padding: 10px;
+    text-align: left;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 115px;
+}

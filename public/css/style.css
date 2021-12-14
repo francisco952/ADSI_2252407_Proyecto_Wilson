@@ -103,3 +103,12 @@ h1{
 .web{
     display: inline-block;
 }
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(87, 87, 86,);
+    font-size: 3.5em;
+}
+.rama{
+    font-size: 3.5em;
+}

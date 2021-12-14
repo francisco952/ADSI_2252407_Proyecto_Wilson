@@ -21,6 +21,22 @@ nav {
     width: 16em;
     padding-left: .1em;
 }
+.menu_direccion{
+    list-style: none;
+    line-height: 60px;
+    margin: 1em auto 0 auto;
+    width: 16em;
+    padding-left: .1em;
+}
+.menu_direccion a {
+    color: white;
+    font-size: 1em;
+    text-decoration: none;
+    display: block;
+    padding-left: 1.5em;
+    width: 100%;
+    transition: all .2s
+}
 .menu a {
     color: white;
     font-size: 1.1em;
@@ -46,6 +62,10 @@ nav {
     color: white;
     font-size: 1.3em;
     padding-right: .3em;
+}
+.rama{
+    font-size: 1em;
+    margin-left: 15px;
 }
 .fa-bars {
     z-index: 20;
